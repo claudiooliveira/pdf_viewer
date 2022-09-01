@@ -151,7 +151,4 @@ class PDFDocument {
       other is PDFDocument &&
           runtimeType == other.runtimeType &&
           _filePath == other._filePath;
-
-  @override
-  int get hashCode => Object.hash(_filePath, count);
 }
